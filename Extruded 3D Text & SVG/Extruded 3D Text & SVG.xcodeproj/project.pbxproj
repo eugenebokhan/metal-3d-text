@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1853AF392185CC220014500F /* SVGBezierPath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1853AF282185CC220014500F /* SVGBezierPath.mm */; };
+		1853AF3A2185CC220014500F /* SVGBezierPath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1853AF282185CC220014500F /* SVGBezierPath.mm */; };
+		1853AF3B2185CC220014500F /* SVGEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1853AF292185CC220014500F /* SVGEngine.mm */; };
+		1853AF3C2185CC220014500F /* SVGEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1853AF292185CC220014500F /* SVGEngine.mm */; };
+		1885DD492185D0A400EE59D4 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1853AF4A2185CD2C0014500F /* libxml2.2.tbd */; };
+		1885DD4A2185D0AD00EE59D4 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1853AF462185CCAD0014500F /* libxml2.2.tbd */; };
+		1885DD4C2185D18E00EE59D4 /* SVG Geometry Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885DD4B2185D18E00EE59D4 /* SVG Geometry Types.swift */; };
+		1885DD4D2185D18E00EE59D4 /* SVG Geometry Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885DD4B2185D18E00EE59D4 /* SVG Geometry Types.swift */; };
+		1885DD4F2185D21E00EE59D4 /* SVGMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885DD4E2185D21E00EE59D4 /* SVGMesh.swift */; };
+		1885DD502185D21E00EE59D4 /* SVGMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885DD4E2185D21E00EE59D4 /* SVGMesh.swift */; };
+		1885DD522185D45500EE59D4 /* Path2Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885DD512185D45500EE59D4 /* Path2Mesh.swift */; };
+		1885DD532185D45500EE59D4 /* Path2Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885DD512185D45500EE59D4 /* Path2Mesh.swift */; };
+		1885DD552185D6DC00EE59D4 /* Geometry Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885DD542185D6DC00EE59D4 /* Geometry Types.swift */; };
+		1885DD562185D6DC00EE59D4 /* Geometry Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885DD542185D6DC00EE59D4 /* Geometry Types.swift */; };
+		1885DD642185E3AB00EE59D4 /* iceland.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1885DD632185E3AB00EE59D4 /* iceland.svg */; };
+		1885DD652185E3AB00EE59D4 /* iceland.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1885DD632185E3AB00EE59D4 /* iceland.svg */; };
+		18DE997D2185C9CD00D20788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE997C2185C9CD00D20788 /* AppDelegate.swift */; };
+		18DE997F2185C9CD00D20788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE997E2185C9CD00D20788 /* ViewController.swift */; };
+		18DE99812185C9CD00D20788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DE99802185C9CD00D20788 /* Assets.xcassets */; };
+		18DE99842185C9CD00D20788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE99822185C9CD00D20788 /* Main.storyboard */; };
+		18DE99912185C9DF00D20788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99902185C9DF00D20788 /* AppDelegate.swift */; };
+		18DE99932185C9DF00D20788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99922185C9DF00D20788 /* ViewController.swift */; };
+		18DE99962185C9DF00D20788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE99942185C9DF00D20788 /* Main.storyboard */; };
+		18DE99982185C9DF00D20788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DE99972185C9DF00D20788 /* Assets.xcassets */; };
+		18DE999B2185C9DF00D20788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE99992185C9DF00D20788 /* LaunchScreen.storyboard */; };
+		18DE99D82185CA2E00D20788 /* Renderer + Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99A82185CA2E00D20788 /* Renderer + Camera.swift */; };
+		18DE99D92185CA2E00D20788 /* Renderer + Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99A82185CA2E00D20788 /* Renderer + Camera.swift */; };
+		18DE99DB2185CA2E00D20788 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99A92185CA2E00D20788 /* Renderer.swift */; };
+		18DE99DC2185CA2E00D20788 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99A92185CA2E00D20788 /* Renderer.swift */; };
+		18DE99DE2185CA2E00D20788 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99AB2185CA2E00D20788 /* Camera.swift */; };
+		18DE99DF2185CA2E00D20788 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99AB2185CA2E00D20788 /* Camera.swift */; };
+		18DE99E12185CA2E00D20788 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99AC2185CA2E00D20788 /* Node.swift */; };
+		18DE99E22185CA2E00D20788 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99AC2185CA2E00D20788 /* Node.swift */; };
+		18DE99E42185CA2E00D20788 /* Textures.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DE99AE2185CA2E00D20788 /* Textures.xcassets */; };
+		18DE99E52185CA2E00D20788 /* Textures.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DE99AE2185CA2E00D20788 /* Textures.xcassets */; };
+		18DE99E72185CA2E00D20788 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99B02185CA2E00D20788 /* Model.swift */; };
+		18DE99E82185CA2E00D20788 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99B02185CA2E00D20788 /* Model.swift */; };
+		18DE99EA2185CA2E00D20788 /* Texturable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99B12185CA2E00D20788 /* Texturable.swift */; };
+		18DE99EB2185CA2E00D20788 /* Texturable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99B12185CA2E00D20788 /* Texturable.swift */; };
+		18DE99ED2185CA2E00D20788 /* Submesh + Textures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99B32185CA2E00D20788 /* Submesh + Textures.swift */; };
+		18DE99EE2185CA2E00D20788 /* Submesh + Textures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99B32185CA2E00D20788 /* Submesh + Textures.swift */; };
+		18DE99F02185CA2E00D20788 /* Submesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99B42185CA2E00D20788 /* Submesh.swift */; };
+		18DE99F12185CA2E00D20788 /* Submesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99B42185CA2E00D20788 /* Submesh.swift */; };
+		18DE99F32185CA2E00D20788 /* TextTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99B62185CA2E00D20788 /* TextTypes.swift */; };
+		18DE99F42185CA2E00D20788 /* TextTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99B62185CA2E00D20788 /* TextTypes.swift */; };
+		18DE99F92185CA2E00D20788 /* TextMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99B82185CA2E00D20788 /* TextMesh.swift */; };
+		18DE99FA2185CA2E00D20788 /* TextMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99B82185CA2E00D20788 /* TextMesh.swift */; };
+		18DE99FF2185CA2E00D20788 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99BA2185CA2E00D20788 /* LinkedList.swift */; };
+		18DE9A002185CA2E00D20788 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99BA2185CA2E00D20788 /* LinkedList.swift */; };
+		18DE9A022185CA2E00D20788 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99BD2185CA2E00D20788 /* Math.swift */; };
+		18DE9A032185CA2E00D20788 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99BD2185CA2E00D20788 /* Math.swift */; };
+		18DE9A052185CA2E00D20788 /* Float + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99BE2185CA2E00D20788 /* Float + Extensions.swift */; };
+		18DE9A062185CA2E00D20788 /* Float + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99BE2185CA2E00D20788 /* Float + Extensions.swift */; };
+		18DE9A082185CA2E00D20788 /* float4x4 + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99BF2185CA2E00D20788 /* float4x4 + Extensions.swift */; };
+		18DE9A092185CA2E00D20788 /* float4x4 + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99BF2185CA2E00D20788 /* float4x4 + Extensions.swift */; };
+		18DE9A0B2185CA2E00D20788 /* float3x3 + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99C02185CA2E00D20788 /* float3x3 + Extensions.swift */; };
+		18DE9A0C2185CA2E00D20788 /* float3x3 + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99C02185CA2E00D20788 /* float3x3 + Extensions.swift */; };
+		18DE9A0E2185CA2E00D20788 /* float4 + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99C12185CA2E00D20788 /* float4 + Extensions.swift */; };
+		18DE9A0F2185CA2E00D20788 /* float4 + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99C12185CA2E00D20788 /* float4 + Extensions.swift */; };
+		18DE9A112185CA2E00D20788 /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99C62185CA2E00D20788 /* dict.c */; };
+		18DE9A122185CA2E00D20788 /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99C62185CA2E00D20788 /* dict.c */; };
+		18DE9A142185CA2E00D20788 /* priorityq.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99C82185CA2E00D20788 /* priorityq.c */; };
+		18DE9A152185CA2E00D20788 /* priorityq.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99C82185CA2E00D20788 /* priorityq.c */; };
+		18DE9A172185CA2E00D20788 /* sweep.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99CA2185CA2E00D20788 /* sweep.c */; };
+		18DE9A182185CA2E00D20788 /* sweep.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99CA2185CA2E00D20788 /* sweep.c */; };
+		18DE9A1A2185CA2E00D20788 /* geom.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99CB2185CA2E00D20788 /* geom.c */; };
+		18DE9A1B2185CA2E00D20788 /* geom.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99CB2185CA2E00D20788 /* geom.c */; };
+		18DE9A1D2185CA2E00D20788 /* tess.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99CD2185CA2E00D20788 /* tess.c */; };
+		18DE9A1E2185CA2E00D20788 /* tess.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99CD2185CA2E00D20788 /* tess.c */; };
+		18DE9A202185CA2E00D20788 /* bucketalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99D12185CA2E00D20788 /* bucketalloc.c */; };
+		18DE9A212185CA2E00D20788 /* bucketalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99D12185CA2E00D20788 /* bucketalloc.c */; };
+		18DE9A232185CA2E00D20788 /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99D22185CA2E00D20788 /* mesh.c */; };
+		18DE9A242185CA2E00D20788 /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99D22185CA2E00D20788 /* mesh.c */; };
+		18DE9A262185CA2E00D20788 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99D52185CA2E00D20788 /* Shaders.metal */; };
+		18DE9A272185CA2E00D20788 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 18DE99D52185CA2E00D20788 /* Shaders.metal */; };
+		18DE9A292185CAE600D20788 /* ViewController + Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE9A282185CAE600D20788 /* ViewController + Gestures.swift */; };
+		18DE9A2B2185CAEE00D20788 /* ViewController + Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE9A2A2185CAEE00D20788 /* ViewController + Gestures.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1853AF272185CC220014500F /* SVGPortability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGPortability.h; sourceTree = "<group>"; };
+		1853AF282185CC220014500F /* SVGBezierPath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVGBezierPath.mm; sourceTree = "<group>"; };
+		1853AF292185CC220014500F /* SVGEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVGEngine.mm; sourceTree = "<group>"; };
+		1853AF2C2185CC220014500F /* SVGBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGBezierPath.h; sourceTree = "<group>"; };
+		1853AF312185CC220014500F /* SVGEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGEngine.h; sourceTree = "<group>"; };
+		1853AF462185CCAD0014500F /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/lib/libxml2.2.tbd; sourceTree = DEVELOPER_DIR; };
+		1853AF482185CCB70014500F /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
+		1853AF4A2185CD2C0014500F /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		1853AF4C2185CD360014500F /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		1885DD4B2185D18E00EE59D4 /* SVG Geometry Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SVG Geometry Types.swift"; sourceTree = "<group>"; };
+		1885DD4E2185D21E00EE59D4 /* SVGMesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGMesh.swift; sourceTree = "<group>"; };
+		1885DD512185D45500EE59D4 /* Path2Mesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path2Mesh.swift; sourceTree = "<group>"; };
+		1885DD542185D6DC00EE59D4 /* Geometry Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry Types.swift"; sourceTree = "<group>"; };
+		1885DD632185E3AB00EE59D4 /* iceland.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = iceland.svg; sourceTree = "<group>"; };
+		18DE997A2185C9CC00D20788 /* Extruded 3D Text & SVG-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Extruded 3D Text & SVG-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DE997C2185C9CD00D20788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18DE997E2185C9CD00D20788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18DE99802185C9CD00D20788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18DE99832185C9CD00D20788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DE99852185C9CD00D20788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DE99862185C9CD00D20788 /* Extruded_3D_Text___SVG_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Extruded_3D_Text___SVG_macOS.entitlements"; sourceTree = "<group>"; };
+		18DE998E2185C9DE00D20788 /* Extruded 3D Text & SVG-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Extruded 3D Text & SVG-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DE99902185C9DF00D20788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18DE99922185C9DF00D20788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18DE99952185C9DF00D20788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DE99972185C9DF00D20788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18DE999A2185C9DF00D20788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18DE999C2185C9DF00D20788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DE99A02185C9F500D20788 /* Extruded 3D Text & SVG-macOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Extruded 3D Text & SVG-macOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		18DE99A12185C9F500D20788 /* Extruded 3D Text & SVG-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Extruded 3D Text & SVG-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		18DE99A82185CA2E00D20788 /* Renderer + Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Renderer + Camera.swift"; sourceTree = "<group>"; };
+		18DE99A92185CA2E00D20788 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		18DE99AB2185CA2E00D20788 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		18DE99AC2185CA2E00D20788 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		18DE99AE2185CA2E00D20788 /* Textures.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Textures.xcassets; sourceTree = "<group>"; };
+		18DE99B02185CA2E00D20788 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		18DE99B12185CA2E00D20788 /* Texturable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Texturable.swift; sourceTree = "<group>"; };
+		18DE99B32185CA2E00D20788 /* Submesh + Textures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Submesh + Textures.swift"; sourceTree = "<group>"; };
+		18DE99B42185CA2E00D20788 /* Submesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Submesh.swift; sourceTree = "<group>"; };
+		18DE99B62185CA2E00D20788 /* TextTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTypes.swift; sourceTree = "<group>"; };
+		18DE99B82185CA2E00D20788 /* TextMesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextMesh.swift; sourceTree = "<group>"; };
+		18DE99BA2185CA2E00D20788 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		18DE99BD2185CA2E00D20788 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		18DE99BE2185CA2E00D20788 /* Float + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Float + Extensions.swift"; sourceTree = "<group>"; };
+		18DE99BF2185CA2E00D20788 /* float4x4 + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "float4x4 + Extensions.swift"; sourceTree = "<group>"; };
+		18DE99C02185CA2E00D20788 /* float3x3 + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "float3x3 + Extensions.swift"; sourceTree = "<group>"; };
+		18DE99C12185CA2E00D20788 /* float4 + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "float4 + Extensions.swift"; sourceTree = "<group>"; };
+		18DE99C42185CA2E00D20788 /* tesselator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tesselator.h; sourceTree = "<group>"; };
+		18DE99C62185CA2E00D20788 /* dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dict.c; sourceTree = "<group>"; };
+		18DE99C72185CA2E00D20788 /* tess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tess.h; sourceTree = "<group>"; };
+		18DE99C82185CA2E00D20788 /* priorityq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = priorityq.c; sourceTree = "<group>"; };
+		18DE99C92185CA2E00D20788 /* bucketalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bucketalloc.h; sourceTree = "<group>"; };
+		18DE99CA2185CA2E00D20788 /* sweep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sweep.c; sourceTree = "<group>"; };
+		18DE99CB2185CA2E00D20788 /* geom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = geom.c; sourceTree = "<group>"; };
+		18DE99CC2185CA2E00D20788 /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		18DE99CD2185CA2E00D20788 /* tess.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tess.c; sourceTree = "<group>"; };
+		18DE99CE2185CA2E00D20788 /* dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dict.h; sourceTree = "<group>"; };
+		18DE99CF2185CA2E00D20788 /* priorityq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = priorityq.h; sourceTree = "<group>"; };
+		18DE99D02185CA2E00D20788 /* sweep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweep.h; sourceTree = "<group>"; };
+		18DE99D12185CA2E00D20788 /* bucketalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bucketalloc.c; sourceTree = "<group>"; };
+		18DE99D22185CA2E00D20788 /* mesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mesh.c; sourceTree = "<group>"; };
+		18DE99D32185CA2E00D20788 /* geom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geom.h; sourceTree = "<group>"; };
+		18DE99D52185CA2E00D20788 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		18DE99D62185CA2E00D20788 /* MetalShaderStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalShaderStructures.h; sourceTree = "<group>"; };
+		18DE9A282185CAE600D20788 /* ViewController + Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + Gestures.swift"; sourceTree = "<group>"; };
+		18DE9A2A2185CAEE00D20788 /* ViewController + Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + Gestures.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DE99772185C9CC00D20788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1885DD492185D0A400EE59D4 /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DE998B2185C9DE00D20788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1885DD4A2185D0AD00EE59D4 /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1853AF222185CC220014500F /* PocketSVG */ = {
+			isa = PBXGroup;
+			children = (
+				1853AF2C2185CC220014500F /* SVGBezierPath.h */,
+				1853AF282185CC220014500F /* SVGBezierPath.mm */,
+				1853AF312185CC220014500F /* SVGEngine.h */,
+				1853AF292185CC220014500F /* SVGEngine.mm */,
+				1853AF272185CC220014500F /* SVGPortability.h */,
+			);
+			path = PocketSVG;
+			sourceTree = "<group>";
+		};
+		1853AF452185CCAD0014500F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1853AF4C2185CD360014500F /* libxml2.tbd */,
+				1853AF4A2185CD2C0014500F /* libxml2.2.tbd */,
+				1853AF482185CCB70014500F /* libxml2.tbd */,
+				1853AF462185CCAD0014500F /* libxml2.2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1885DD5A2185DB5E00EE59D4 /* SVG Mesh */ = {
+			isa = PBXGroup;
+			children = (
+				1885DD4B2185D18E00EE59D4 /* SVG Geometry Types.swift */,
+				1885DD4E2185D21E00EE59D4 /* SVGMesh.swift */,
+			);
+			path = "SVG Mesh";
+			sourceTree = "<group>";
+		};
+		1885DD612185E13600EE59D4 /* Custom Mesh */ = {
+			isa = PBXGroup;
+			children = (
+				1885DD622185E15600EE59D4 /* Common */,
+				18DE99B52185CA2E00D20788 /* Text Mesh */,
+				1885DD5A2185DB5E00EE59D4 /* SVG Mesh */,
+			);
+			path = "Custom Mesh";
+			sourceTree = "<group>";
+		};
+		1885DD622185E15600EE59D4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99BA2185CA2E00D20788 /* LinkedList.swift */,
+				1885DD542185D6DC00EE59D4 /* Geometry Types.swift */,
+				1885DD512185D45500EE59D4 /* Path2Mesh.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		18DE995A2185C9B900D20788 = {
+			isa = PBXGroup;
+			children = (
+				18DE99A62185CA2E00D20788 /* Rendering */,
+				18DE997B2185C9CD00D20788 /* Extruded 3D Text & SVG-macOS */,
+				18DE998F2185C9DF00D20788 /* Extruded 3D Text & SVG-iOS */,
+				18DE99642185C9B900D20788 /* Products */,
+				1853AF452185CCAD0014500F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18DE99642185C9B900D20788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DE997A2185C9CC00D20788 /* Extruded 3D Text & SVG-macOS.app */,
+				18DE998E2185C9DE00D20788 /* Extruded 3D Text & SVG-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DE997B2185C9CD00D20788 /* Extruded 3D Text & SVG-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				18DE997C2185C9CD00D20788 /* AppDelegate.swift */,
+				18DE997E2185C9CD00D20788 /* ViewController.swift */,
+				18DE9A282185CAE600D20788 /* ViewController + Gestures.swift */,
+				18DE99802185C9CD00D20788 /* Assets.xcassets */,
+				18DE99822185C9CD00D20788 /* Main.storyboard */,
+				18DE99852185C9CD00D20788 /* Info.plist */,
+				18DE99A02185C9F500D20788 /* Extruded 3D Text & SVG-macOS-Bridging-Header.h */,
+				18DE99862185C9CD00D20788 /* Extruded_3D_Text___SVG_macOS.entitlements */,
+			);
+			path = "Extruded 3D Text & SVG-macOS";
+			sourceTree = "<group>";
+		};
+		18DE998F2185C9DF00D20788 /* Extruded 3D Text & SVG-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99902185C9DF00D20788 /* AppDelegate.swift */,
+				18DE99922185C9DF00D20788 /* ViewController.swift */,
+				18DE9A2A2185CAEE00D20788 /* ViewController + Gestures.swift */,
+				18DE99972185C9DF00D20788 /* Assets.xcassets */,
+				18DE99942185C9DF00D20788 /* Main.storyboard */,
+				18DE99992185C9DF00D20788 /* LaunchScreen.storyboard */,
+				18DE999C2185C9DF00D20788 /* Info.plist */,
+				18DE99A12185C9F500D20788 /* Extruded 3D Text & SVG-iOS-Bridging-Header.h */,
+			);
+			path = "Extruded 3D Text & SVG-iOS";
+			sourceTree = "<group>";
+		};
+		18DE99A62185CA2E00D20788 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99A72185CA2E00D20788 /* Renderer */,
+				18DE99AF2185CA2E00D20788 /* Models */,
+				18DE99AA2185CA2E00D20788 /* Nodes */,
+				18DE99BB2185CA2E00D20788 /* Utilities */,
+				18DE99D42185CA2E00D20788 /* Shaders */,
+				18DE99AD2185CA2E00D20788 /* Resources */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		18DE99A72185CA2E00D20788 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99A92185CA2E00D20788 /* Renderer.swift */,
+				18DE99A82185CA2E00D20788 /* Renderer + Camera.swift */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		18DE99AA2185CA2E00D20788 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99AB2185CA2E00D20788 /* Camera.swift */,
+				18DE99AC2185CA2E00D20788 /* Node.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		18DE99AD2185CA2E00D20788 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1885DD632185E3AB00EE59D4 /* iceland.svg */,
+				18DE99AE2185CA2E00D20788 /* Textures.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18DE99AF2185CA2E00D20788 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99B22185CA2E00D20788 /* Submesh */,
+				18DE99B02185CA2E00D20788 /* Model.swift */,
+				18DE99B12185CA2E00D20788 /* Texturable.swift */,
+				1885DD612185E13600EE59D4 /* Custom Mesh */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18DE99B22185CA2E00D20788 /* Submesh */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99B32185CA2E00D20788 /* Submesh + Textures.swift */,
+				18DE99B42185CA2E00D20788 /* Submesh.swift */,
+			);
+			path = Submesh;
+			sourceTree = "<group>";
+		};
+		18DE99B52185CA2E00D20788 /* Text Mesh */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99B62185CA2E00D20788 /* TextTypes.swift */,
+				18DE99B82185CA2E00D20788 /* TextMesh.swift */,
+			);
+			path = "Text Mesh";
+			sourceTree = "<group>";
+		};
+		18DE99BB2185CA2E00D20788 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99BC2185CA2E00D20788 /* Math */,
+				1853AF222185CC220014500F /* PocketSVG */,
+				18DE99C22185CA2E00D20788 /* libtess2 */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		18DE99BC2185CA2E00D20788 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99BD2185CA2E00D20788 /* Math.swift */,
+				18DE99BE2185CA2E00D20788 /* Float + Extensions.swift */,
+				18DE99BF2185CA2E00D20788 /* float4x4 + Extensions.swift */,
+				18DE99C02185CA2E00D20788 /* float3x3 + Extensions.swift */,
+				18DE99C12185CA2E00D20788 /* float4 + Extensions.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		18DE99C22185CA2E00D20788 /* libtess2 */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99C32185CA2E00D20788 /* include */,
+				18DE99C52185CA2E00D20788 /* source */,
+			);
+			path = libtess2;
+			sourceTree = "<group>";
+		};
+		18DE99C32185CA2E00D20788 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99C42185CA2E00D20788 /* tesselator.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		18DE99C52185CA2E00D20788 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99C62185CA2E00D20788 /* dict.c */,
+				18DE99C72185CA2E00D20788 /* tess.h */,
+				18DE99C82185CA2E00D20788 /* priorityq.c */,
+				18DE99C92185CA2E00D20788 /* bucketalloc.h */,
+				18DE99CA2185CA2E00D20788 /* sweep.c */,
+				18DE99CB2185CA2E00D20788 /* geom.c */,
+				18DE99CC2185CA2E00D20788 /* mesh.h */,
+				18DE99CD2185CA2E00D20788 /* tess.c */,
+				18DE99CE2185CA2E00D20788 /* dict.h */,
+				18DE99CF2185CA2E00D20788 /* priorityq.h */,
+				18DE99D02185CA2E00D20788 /* sweep.h */,
+				18DE99D12185CA2E00D20788 /* bucketalloc.c */,
+				18DE99D22185CA2E00D20788 /* mesh.c */,
+				18DE99D32185CA2E00D20788 /* geom.h */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		18DE99D42185CA2E00D20788 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				18DE99D52185CA2E00D20788 /* Shaders.metal */,
+				18DE99D62185CA2E00D20788 /* MetalShaderStructures.h */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DE99792185C9CC00D20788 /* Extruded 3D Text & SVG-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DE99872185C9CD00D20788 /* Build configuration list for PBXNativeTarget "Extruded 3D Text & SVG-macOS" */;
+			buildPhases = (
+				18DE99762185C9CC00D20788 /* Sources */,
+				18DE99772185C9CC00D20788 /* Frameworks */,
+				18DE99782185C9CC00D20788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Extruded 3D Text & SVG-macOS";
+			productName = "Extruded 3D Text & SVG-macOS";
+			productReference = 18DE997A2185C9CC00D20788 /* Extruded 3D Text & SVG-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18DE998D2185C9DE00D20788 /* Extruded 3D Text & SVG-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DE999D2185C9DF00D20788 /* Build configuration list for PBXNativeTarget "Extruded 3D Text & SVG-iOS" */;
+			buildPhases = (
+				18DE998A2185C9DE00D20788 /* Sources */,
+				18DE998B2185C9DE00D20788 /* Frameworks */,
+				18DE998C2185C9DE00D20788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Extruded 3D Text & SVG-iOS";
+			productName = "Extruded 3D Text & SVG-iOS";
+			productReference = 18DE998E2185C9DE00D20788 /* Extruded 3D Text & SVG-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DE995B2185C9B900D20788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Eugene Bokhan";
+				TargetAttributes = {
+					18DE99792185C9CC00D20788 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					18DE998D2185C9DE00D20788 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 18DE995E2185C9B900D20788 /* Build configuration list for PBXProject "Extruded 3D Text & SVG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DE995A2185C9B900D20788;
+			productRefGroup = 18DE99642185C9B900D20788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DE99792185C9CC00D20788 /* Extruded 3D Text & SVG-macOS */,
+				18DE998D2185C9DE00D20788 /* Extruded 3D Text & SVG-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DE99782185C9CC00D20788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DE99E42185CA2E00D20788 /* Textures.xcassets in Resources */,
+				1885DD642185E3AB00EE59D4 /* iceland.svg in Resources */,
+				18DE99812185C9CD00D20788 /* Assets.xcassets in Resources */,
+				18DE99842185C9CD00D20788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DE998C2185C9DE00D20788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1885DD652185E3AB00EE59D4 /* iceland.svg in Resources */,
+				18DE999B2185C9DF00D20788 /* LaunchScreen.storyboard in Resources */,
+				18DE99E52185CA2E00D20788 /* Textures.xcassets in Resources */,
+				18DE99982185C9DF00D20788 /* Assets.xcassets in Resources */,
+				18DE99962185C9DF00D20788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DE99762185C9CC00D20788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DE99E72185CA2E00D20788 /* Model.swift in Sources */,
+				18DE9A172185CA2E00D20788 /* sweep.c in Sources */,
+				18DE9A0B2185CA2E00D20788 /* float3x3 + Extensions.swift in Sources */,
+				18DE99ED2185CA2E00D20788 /* Submesh + Textures.swift in Sources */,
+				18DE9A292185CAE600D20788 /* ViewController + Gestures.swift in Sources */,
+				18DE99DB2185CA2E00D20788 /* Renderer.swift in Sources */,
+				18DE99DE2185CA2E00D20788 /* Camera.swift in Sources */,
+				18DE9A202185CA2E00D20788 /* bucketalloc.c in Sources */,
+				18DE9A262185CA2E00D20788 /* Shaders.metal in Sources */,
+				18DE99EA2185CA2E00D20788 /* Texturable.swift in Sources */,
+				18DE99D82185CA2E00D20788 /* Renderer + Camera.swift in Sources */,
+				18DE99E12185CA2E00D20788 /* Node.swift in Sources */,
+				18DE9A1D2185CA2E00D20788 /* tess.c in Sources */,
+				1853AF3B2185CC220014500F /* SVGEngine.mm in Sources */,
+				18DE9A112185CA2E00D20788 /* dict.c in Sources */,
+				18DE99F92185CA2E00D20788 /* TextMesh.swift in Sources */,
+				1885DD552185D6DC00EE59D4 /* Geometry Types.swift in Sources */,
+				18DE9A232185CA2E00D20788 /* mesh.c in Sources */,
+				1885DD522185D45500EE59D4 /* Path2Mesh.swift in Sources */,
+				18DE9A142185CA2E00D20788 /* priorityq.c in Sources */,
+				18DE9A082185CA2E00D20788 /* float4x4 + Extensions.swift in Sources */,
+				18DE99F02185CA2E00D20788 /* Submesh.swift in Sources */,
+				1885DD4F2185D21E00EE59D4 /* SVGMesh.swift in Sources */,
+				1853AF392185CC220014500F /* SVGBezierPath.mm in Sources */,
+				18DE997F2185C9CD00D20788 /* ViewController.swift in Sources */,
+				1885DD4C2185D18E00EE59D4 /* SVG Geometry Types.swift in Sources */,
+				18DE99FF2185CA2E00D20788 /* LinkedList.swift in Sources */,
+				18DE997D2185C9CD00D20788 /* AppDelegate.swift in Sources */,
+				18DE9A052185CA2E00D20788 /* Float + Extensions.swift in Sources */,
+				18DE9A0E2185CA2E00D20788 /* float4 + Extensions.swift in Sources */,
+				18DE99F32185CA2E00D20788 /* TextTypes.swift in Sources */,
+				18DE9A022185CA2E00D20788 /* Math.swift in Sources */,
+				18DE9A1A2185CA2E00D20788 /* geom.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DE998A2185C9DE00D20788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DE99E82185CA2E00D20788 /* Model.swift in Sources */,
+				18DE9A182185CA2E00D20788 /* sweep.c in Sources */,
+				18DE9A0C2185CA2E00D20788 /* float3x3 + Extensions.swift in Sources */,
+				18DE99EE2185CA2E00D20788 /* Submesh + Textures.swift in Sources */,
+				18DE9A2B2185CAEE00D20788 /* ViewController + Gestures.swift in Sources */,
+				18DE99DC2185CA2E00D20788 /* Renderer.swift in Sources */,
+				18DE99DF2185CA2E00D20788 /* Camera.swift in Sources */,
+				18DE9A212185CA2E00D20788 /* bucketalloc.c in Sources */,
+				18DE9A272185CA2E00D20788 /* Shaders.metal in Sources */,
+				18DE99EB2185CA2E00D20788 /* Texturable.swift in Sources */,
+				18DE99D92185CA2E00D20788 /* Renderer + Camera.swift in Sources */,
+				18DE99E22185CA2E00D20788 /* Node.swift in Sources */,
+				18DE9A1E2185CA2E00D20788 /* tess.c in Sources */,
+				1853AF3C2185CC220014500F /* SVGEngine.mm in Sources */,
+				18DE9A122185CA2E00D20788 /* dict.c in Sources */,
+				18DE99FA2185CA2E00D20788 /* TextMesh.swift in Sources */,
+				1885DD562185D6DC00EE59D4 /* Geometry Types.swift in Sources */,
+				18DE9A242185CA2E00D20788 /* mesh.c in Sources */,
+				1885DD532185D45500EE59D4 /* Path2Mesh.swift in Sources */,
+				18DE9A152185CA2E00D20788 /* priorityq.c in Sources */,
+				18DE9A092185CA2E00D20788 /* float4x4 + Extensions.swift in Sources */,
+				18DE99F12185CA2E00D20788 /* Submesh.swift in Sources */,
+				1885DD502185D21E00EE59D4 /* SVGMesh.swift in Sources */,
+				1853AF3A2185CC220014500F /* SVGBezierPath.mm in Sources */,
+				18DE99932185C9DF00D20788 /* ViewController.swift in Sources */,
+				1885DD4D2185D18E00EE59D4 /* SVG Geometry Types.swift in Sources */,
+				18DE9A002185CA2E00D20788 /* LinkedList.swift in Sources */,
+				18DE99912185C9DF00D20788 /* AppDelegate.swift in Sources */,
+				18DE9A062185CA2E00D20788 /* Float + Extensions.swift in Sources */,
+				18DE9A0F2185CA2E00D20788 /* float4 + Extensions.swift in Sources */,
+				18DE99F42185CA2E00D20788 /* TextTypes.swift in Sources */,
+				18DE9A032185CA2E00D20788 /* Math.swift in Sources */,
+				18DE9A1B2185CA2E00D20788 /* geom.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18DE99822185C9CD00D20788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DE99832185C9CD00D20788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DE99942185C9DF00D20788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DE99952185C9DF00D20788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DE99992185C9DF00D20788 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DE999A2185C9DF00D20788 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DE99712185C9B900D20788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18DE99722185C9B900D20788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		18DE99882185C9CD00D20788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Extruded 3D Text & SVG-macOS/Extruded_3D_Text___SVG_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63TG84TE66;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "Extruded 3D Text & SVG-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eugenebokhan.Extruded-3D-Text---SVG-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Extruded 3D Text & SVG-macOS/Extruded 3D Text & SVG-macOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		18DE99892185C9CD00D20788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Extruded 3D Text & SVG-macOS/Extruded_3D_Text___SVG_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63TG84TE66;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "Extruded 3D Text & SVG-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eugenebokhan.Extruded-3D-Text---SVG-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Extruded 3D Text & SVG-macOS/Extruded 3D Text & SVG-macOS-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		18DE999E2185C9DF00D20788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63TG84TE66;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "Extruded 3D Text & SVG-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eugenebokhan.Extruded-3D-Text---SVG-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Extruded 3D Text & SVG-iOS/Extruded 3D Text & SVG-iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18DE999F2185C9DF00D20788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63TG84TE66;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "Extruded 3D Text & SVG-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eugenebokhan.Extruded-3D-Text---SVG-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Extruded 3D Text & SVG-iOS/Extruded 3D Text & SVG-iOS-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DE995E2185C9B900D20788 /* Build configuration list for PBXProject "Extruded 3D Text & SVG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DE99712185C9B900D20788 /* Debug */,
+				18DE99722185C9B900D20788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DE99872185C9CD00D20788 /* Build configuration list for PBXNativeTarget "Extruded 3D Text & SVG-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DE99882185C9CD00D20788 /* Debug */,
+				18DE99892185C9CD00D20788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DE999D2185C9DF00D20788 /* Build configuration list for PBXNativeTarget "Extruded 3D Text & SVG-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DE999E2185C9DF00D20788 /* Debug */,
+				18DE999F2185C9DF00D20788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18DE995B2185C9B900D20788 /* Project object */;
+}
